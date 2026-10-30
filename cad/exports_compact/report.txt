@@ -1,0 +1,33 @@
+== Cinématique (palonnier 7 mm, rotules à 12 mm de l'axe)
+  longueur biellettes entre-axes : X = 39.3 mm, Y = 75.2 mm
+  θx=-10.0° -> servo X -16.01° Y  +8.75°   |   θy=-10.0° -> servo X  -7.17° Y +17.27°
+  θx= -5.0° -> servo X  -8.15° Y  +4.13°   |   θy= -5.0° -> servo X  -3.81° Y  +8.31°
+  θx= -1.0° -> servo X  -1.66° Y  +0.79°   |   θy= -1.0° -> servo X  -0.80° Y  +1.62°
+  θx= +1.0° -> servo X  +1.68° Y  -0.77°   |   θy= +1.0° -> servo X  +0.81° Y  -1.60°
+  θx= +5.0° -> servo X  +8.57° Y  -3.63°   |   θy= +5.0° -> servo X  +4.24° Y  -7.81°
+  θx=+10.0° -> servo X +17.77° Y  -6.75°   |   θy=+10.0° -> servo X  +8.91° Y -15.23°
+== Interférences (débattement ±10° sur chaque axe)
+  pose θx= +0.0° θy= +0.0° : OK
+  pose θx=-10.0° θy=-10.0° : OK
+  pose θx=-10.0° θy= +0.0° : OK
+  pose θx=-10.0° θy=+10.0° : OK
+  pose θx= +0.0° θy=-10.0° : OK
+  pose θx= +0.0° θy=+10.0° : OK
+  pose θx=+10.0° θy=-10.0° : OK
+  pose θx=+10.0° θy= +0.0° : OK
+  pose θx=+10.0° θy=+10.0° : OK
+  jeu mini motor_mount / tube_ref (coins ±10°/±10°) : 0.69 mm
+  jeu mini motor_mount / bay (coins ±10°/±10°) : 20.77 mm
+  jeu mini pushrod_X / bay (coins ±10°/±10°) : 2.82 mm
+  jeu mini pushrod_Y / bay (coins ±10°/±10°) : 1.14 mm
+  jeu mini pushrod_X / servo_X (coins ±10°/±10°) : 1.81 mm
+  jeu mini pushrod_Y / servo_X (coins ±10°/±10°) : 4.66 mm
+  jeu mini uj_lower / uj_upper (coins ±10°/±10°) : 0.50 mm
+  jeu mini motor_mount / uj_upper (coins ±10°/±10°) : 9.50 mm
+== Pose exportée : θx=+0.0°, θy=+0.0° (servo X -0.00°, servo Y -0.00°)
+== Encombrement : longueur 222 mm (buse -> platine), boîte englobante hors moteur ±18.8 mm
+== Pièces imprimées (volume matière)
+  motor_mount     7.5 cm³  ~  9.5 g PETG plein  bbox 27.4 x 29.9 x 41.5
+  bay            26.0 cm³  ~ 33.1 g PETG plein  bbox 37.6 x 37.6 x 116.0
+  top             7.1 cm³  ~  9.0 g PETG plein  bbox 37.6 x 37.6 x 42.0
+  motor_d9       31.7 cm³  ~ 40.2 g PETG plein  bbox 24.0 x 24.0 x 70.0

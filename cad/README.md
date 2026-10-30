@@ -14,6 +14,7 @@ Modèle FreeCAD paramétrique du prototype de banc : cardan 2 axes pour un moteu
 | Fichier | Contenu |
 |---|---|
 | `tvc_module.py` | Modèle, cinématique, vérification des interférences, exports |
+| `tvc_compact.py` | Variante pour tube de 4 cm, voir [COMPACT.md](COMPACT.md) |
 | `render_views.py` | Rendus PNG dans `docs/img/` |
 | `render_gif.py`, `make_gif.py` | GIF de démonstration |
 | `exports/` | `tvc_module.FCStd`, `tvc_module_assembly.step`, `stl/`, `report.txt` |
