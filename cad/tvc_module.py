@@ -11,7 +11,7 @@ Utilisation :
 
 Variables d'environnement optionnelles :
   TVC_THETA_X / TVC_THETA_Y  pose du cardan en degrés (défaut 0 / 0)
-  TVC_OUT                    dossier de sortie (défaut : cad/out à côté du script)
+  TVC_OUT                    dossier de sortie (défaut : cad/exports)
   TVC_CHECK=0                désactive la vérification des interférences
   TVC_EXPORT=0               désactive les exports STEP / STL / FCStd
 
@@ -628,7 +628,7 @@ def run_checks(items, log):
 # --------------------------------------------------------------------------------------
 def main():
     here = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else os.getcwd()
-    out_dir = os.environ.get("TVC_OUT", os.path.join(here, "out"))
+    out_dir = os.environ.get("TVC_OUT", os.path.join(here, "exports"))
     tx = float(os.environ.get("TVC_THETA_X", "0"))
     ty = float(os.environ.get("TVC_THETA_Y", "0"))
     lines = []

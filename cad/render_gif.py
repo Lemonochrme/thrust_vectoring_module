@@ -11,7 +11,7 @@ import FreeCAD as App
 import FreeCADGui as Gui
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FRAMES = os.environ.get("TVC_FRAMES_DIR", os.path.join(HERE, "out", "frames"))
+FRAMES = os.environ.get("TVC_FRAMES_DIR", os.path.join(HERE, "exports", "frames"))
 N = int(os.environ.get("TVC_FRAMES", "48"))
 os.makedirs(FRAMES, exist_ok=True)
 

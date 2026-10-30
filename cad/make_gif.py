@@ -6,7 +6,7 @@ import sys
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FRAMES = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "out", "frames")
+FRAMES = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "exports", "frames")
 OUT = os.path.join(HERE, "..", "docs", "img", "tvc_demo.gif")
 SIZE = 600
 
