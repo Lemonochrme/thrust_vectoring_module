@@ -5,5 +5,11 @@ This repository contains the code and documentation for a thrust vectoring proto
 
 WIP
 
+## Mechanical design (CAD)
+A complete FreeCAD parametric model of a bench prototype (2-axis gimbal for a dummy D9 motor,
+2 × MG90S servos, ESP32-C3 Super Mini + MPU6050, Ø76 mm) lives in [`cad/`](cad/README.md).
+
+![TVC module](docs/img/assembly_iso.png)
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
