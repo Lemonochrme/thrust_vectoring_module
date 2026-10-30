@@ -9,7 +9,7 @@ WIP
 A complete FreeCAD parametric model of a bench prototype (2-axis gimbal for a dummy D9 motor,
 2 × MG90S servos, ESP32-C3 Super Mini + MPU6050, Ø76 mm) lives in [`cad/`](cad/README.md).
 
-![TVC module](docs/img/assembly_iso.png)
+![TVC module in action](docs/img/tvc_demo.gif)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.

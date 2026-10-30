@@ -6,6 +6,11 @@ destiné au banc d'essai. Toute la géométrie est générée par un script Free
 
 ![Assemblage](../docs/img/assembly_iso.png)
 
+Le module en action : le moteur décrit un cône de 10°, avec les angles de servo issus de la
+cinématique inverse (platine et plateau avionique masqués) :
+
+![Démo](../docs/img/tvc_demo.gif)
+
 | Baie servos | Cardan incliné (θx = +8°, θy = −8°) |
 |---|---|
 | ![Baie servos](../docs/img/servo_bay.png) | ![Inclinaison](../docs/img/assembly_tilt.png) |
@@ -55,6 +60,10 @@ TVC_THETA_X=8 TVC_THETA_Y=-5 freecadcmd cad/tvc_module.py
 
 # Rendus PNG (interface graphique nécessaire ; xvfb-run sur un serveur)
 xvfb-run -s "-screen 0 1600x1200x24" freecad cad/render_views.py
+
+# GIF animé (balayage circulaire ±10°) : images FreeCAD puis assemblage avec Pillow
+xvfb-run -s "-screen 0 1600x1200x24" freecad cad/render_gif.py
+python3 cad/make_gif.py
 ```
 
 - **Dans FreeCAD** : *Macro → Macros… → Exécuter* sur `tvc_module.py`. Les pièces sont colorées et
