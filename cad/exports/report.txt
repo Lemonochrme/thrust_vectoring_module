@@ -1,0 +1,35 @@
+== Cinématique (levier bras 26 mm / palonnier 11 mm = 2.36:1)
+  longueur biellettes entre-axes : X = 29.6 mm, Y = 29.6 mm
+  θx=-10.0° -> servo X -27.36°   |   θy=-10.0° -> servo Y +20.71°
+  θx= -5.0° -> servo X -12.61°   |   θy= -5.0° -> servo Y +11.10°
+  θx= -1.0° -> servo X  -2.39°   |   θy= -1.0° -> servo Y  +2.33°
+  θx= +1.0° -> servo X  +2.33°   |   θy= +1.0° -> servo Y  -2.39°
+  θx= +5.0° -> servo X +11.10°   |   θy= +5.0° -> servo Y -12.61°
+  θx=+10.0° -> servo X +20.71°   |   θy=+10.0° -> servo Y -27.36°
+  couplage : θx=+10°, θy=+10° -> servo X +16.34°, servo Y -29.61°
+== Interférences (débattement ±10° sur chaque axe)
+  pose θx= +0.0° θy= +0.0° : OK
+  pose θx=-10.0° θy=-10.0° : OK
+  pose θx=-10.0° θy= +0.0° : OK
+  pose θx=-10.0° θy=+10.0° : OK
+  pose θx= +0.0° θy=-10.0° : OK
+  pose θx= +0.0° θy=+10.0° : OK
+  pose θx=+10.0° θy=-10.0° : OK
+  pose θx=+10.0° θy= +0.0° : OK
+  pose θx=+10.0° θy=+10.0° : OK
+  jeu mini motor_mount / servo_deck (coins ±10°/±10°) : 2.75 mm
+  jeu mini motor_mount / frame (coins ±10°/±10°) : 1.78 mm
+  jeu mini gimbal_ring / frame (coins ±10°/±10°) : 0.50 mm
+  jeu mini pushrod_X / servo_deck (coins ±10°/±10°) : 3.33 mm
+  jeu mini pushrod_Y / servo_deck (coins ±10°/±10°) : 3.52 mm
+  jeu mini motor_mount / gimbal_ring (coins ±10°/±10°) : 0.50 mm
+  jeu mini motor_d9 / frame (coins ±10°/±10°) : 10.83 mm
+== Pose exportée : θx=+0.0°, θy=+0.0° (servo X -0.00°, servo Y -0.00°)
+== Pièces imprimées (volume matière)
+  motor_mount         12.9 cm³  ~ 16.4 g PETG plein  bbox 50.0 x 46.7 x 59.4
+  gimbal_ring          5.4 cm³  ~  6.8 g PETG plein  bbox 52.0 x 61.0 x 10.0
+  frame               20.2 cm³  ~ 25.6 g PETG plein  bbox 76.0 x 76.0 x 47.0
+  servo_deck          14.7 cm³  ~ 18.6 g PETG plein  bbox 76.0 x 76.0 x 20.0
+  avionics_deck       13.7 cm³  ~ 17.4 g PETG plein  bbox 76.0 x 76.0 x 7.0
+  top_plate           17.3 cm³  ~ 22.0 g PETG plein  bbox 76.0 x 76.0 x 19.0
+  motor_d9            31.7 cm³  ~ 40.2 g PETG plein  bbox 24.0 x 24.0 x 70.0
